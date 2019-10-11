@@ -4,8 +4,8 @@
 		{
 			"Name": "Items",
 			"Entities": [
-				[ "Lantern" ],
-				[ "Sword1", "Bomb" ],
+				[ "Lantern", "MagicMirror" ],
+				[ "Sword1", "Bomb", "MoonPearl" ],
 				[ "PegasusBoots", "MagicPowder", "Hookshot", "Bottle" ],
 				[ "MedallionBombos", "MedallionEther", "MedallionQuake" ]
 			]

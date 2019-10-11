@@ -4,12 +4,11 @@
 		{
 			"Name": "Locations",
 			"Entities": [
-				[ "LW1", "LW2", "LW3" ],
-				[ "DW1", "DW2", "DW3" ],
-				[ "DW4", "DW5", "DW6", "DW7" ],
-				[ "HC", "AT", "GT", "Ganon" ],
-				[ "BombShop", "BumperCave", "MimicCave", "SpikeCave" ],
-				[ "Sahasrahla", "OldMansCave", "Swordsmiths", "WitchHut" ]
+				[ "HC", "LW1", "LW2", "LW3", "AT", "DW1", "DW2" ],
+				[ "DW3", "DW4", "DW5", "DW6", "DW7", "GT", "Ganon" ],
+				[ "Sanctuary", "OldMansCave", "Swordsmiths", "BombShop", "WitchHut" ],
+				[ "Connection1", "Connection2", "Connection3", "Connection4", "Connection5" ],
+				[ "Sahasrahla", "BumperCave", "MimicCave", "SpikeCave" ]
 			]
 		}
 	]
