@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/Open/OpenMC.png",
+    "InstanceTemplate": "",
+    "Name": "Open (MC)",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenMC.ini",
+    "Version": 1
+}

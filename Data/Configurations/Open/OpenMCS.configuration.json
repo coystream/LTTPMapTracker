@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/Open/OpenMCS.png",
+    "InstanceTemplate": "",
+    "Name": "Open (MCS)",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenMCS.ini",
+    "Version": 1
+}
