@@ -68,8 +68,8 @@
             "Name": "Death Mountain (Dark) - Bumper Cave (Top)",
             "PositionX": -576,
             "PositionY": -1422,
-            "Region": "",
-            "Rule": "Common - Inaccessible",
+            "Region": "Death Mountain (Dark) - Bumper Cave (Top)",
+            "Rule": "",
             "RuleAccess": "Entrance"
         },
         {
@@ -122,8 +122,8 @@
             "Name": "Palace of Darkness - Dungeon",
             "PositionX": 1880,
             "PositionY": -437,
-            "Region": "DW - Main - East",
-            "Rule": "",
+            "Region": "DW - Main - East (No Pearl)",
+            "Rule": "Common - Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -626,9 +626,9 @@
             "Name": "Desert of Mystery - Desert Palace - Back",
             "PositionX": -1745,
             "PositionY": 1093,
-            "Region": "LW - Desert of Mystery - Ledge",
-            "Rule": "Common - Power Glove",
-            "RuleAccess": "EntranceAndExit"
+            "Region": "LW - Desert of Mystery - Desert Palace - Back",
+            "Rule": "",
+            "RuleAccess": "Entrance"
         },
         {
             "Map": "LW",
@@ -915,7 +915,7 @@
             "PositionX": 1360,
             "PositionY": -1776,
             "Region": "DW - Death Mountain - Top",
-            "Rule": "Common - Power Glove",
+            "Rule": "Common - Power Glove and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -987,7 +987,7 @@
             "PositionX": -592,
             "PositionY": -1325,
             "Region": "DW - Main - West",
-            "Rule": "Common - Power Glove",
+            "Rule": "Common - Power Glove and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -995,7 +995,7 @@
             "Name": "Pyramid - Hole",
             "PositionX": -8,
             "PositionY": -373,
-            "Region": "DW - Main - East",
+            "Region": "DW - Main - East (No Pearl)",
             "Rule": "DW - Pyramid - Hole",
             "RuleAccess": "Entrance"
         },
@@ -1004,7 +1004,7 @@
             "Name": "Pyramid - Fairy",
             "PositionX": -128,
             "PositionY": -57,
-            "Region": "DW - Main - East",
+            "Region": "DW - Main - East (No Pearl)",
             "Rule": "DW - Pyramid - Fairy",
             "RuleAccess": "Entrance"
         },
@@ -1086,7 +1086,7 @@
             "PositionX": 400,
             "PositionY": 1142,
             "Region": "DW - Main - South",
-            "Rule": "Common - Bomb",
+            "Rule": "Common - Bomb and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1104,7 +1104,7 @@
             "PositionX": -112,
             "PositionY": 624,
             "Region": "DW - Main - South",
-            "Rule": "Common - Pegasus Boots",
+            "Rule": "Common - Pegasus Boots and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1113,7 +1113,7 @@
             "PositionX": -784,
             "PositionY": 750,
             "Region": "DW - Main - South",
-            "Rule": "",
+            "Rule": "Common - Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1131,7 +1131,7 @@
             "PositionX": -1816,
             "PositionY": 791,
             "Region": "DW - Main - South",
-            "Rule": "",
+            "Rule": "Common - Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1140,7 +1140,7 @@
             "PositionX": -1433,
             "PositionY": 664,
             "Region": "DW - Main - West",
-            "Rule": "Common - Titan's Mitt",
+            "Rule": "Common - Titan's Mitt and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1167,7 +1167,7 @@
             "PositionX": -1600,
             "PositionY": 342,
             "Region": "DW - Main - West",
-            "Rule": "Common - Bomb",
+            "Rule": "Common - Bomb and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1176,7 +1176,7 @@
             "PositionX": -1216,
             "PositionY": 135,
             "Region": "DW - Main - West",
-            "Rule": "Common - Magic Hammer",
+            "Rule": "Common - Magic Hammer and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1203,7 +1203,7 @@
             "PositionX": -1537,
             "PositionY": -59,
             "Region": "DW - Main - West",
-            "Rule": "",
+            "Rule": "Common - Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1221,7 +1221,7 @@
             "PositionX": -1888,
             "PositionY": -1840,
             "Region": "DW - Main - West",
-            "Rule": "Common - Fire Rod",
+            "Rule": "Common - Fire Rod and Moon Pearl",
             "RuleAccess": "Entrance"
         },
         {
@@ -1302,7 +1302,7 @@
             "PositionX": -1744,
             "PositionY": 1249,
             "Region": "DW - Swamp of Evil",
-            "Rule": "",
+            "Rule": "Swamp of Evil - Misery Mire",
             "RuleAccess": "Entrance"
         },
         {
@@ -1362,6 +1362,11 @@
             "Rule": "LW - Desert of Mystery - Ledge"
         },
         {
+            "Color": "#ffbd40",
+            "Name": "LW - Desert of Mystery - Desert Palace - Back",
+            "Rule": "LW - Desert of Mystery - Desert Palace - Back"
+        },
+        {
             "Color": "#e9ffe5",
             "Name": "LW - North East",
             "Rule": "LW - North East"
@@ -1400,6 +1405,11 @@
             "Color": "#ff3542",
             "Name": "DW - Death Mountain - East (Bottom)",
             "Rule": "DW - Death Mountain - East (Bottom)"
+        },
+        {
+            "Color": "#ff3542",
+            "Name": "Death Mountain (Dark) - Bumper Cave (Top)",
+            "Rule": "Common - Inaccessible"
         },
         {
             "Color": "#ff7e9a",
@@ -1471,6 +1481,25 @@
             ]
         },
         {
+            "Name": "Common - Power Glove and Moon Pearl",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                }
+            ]
+        },
+        {
             "Name": "Common - Inaccessible",
             "RuleEntries": [
                 {
@@ -1489,7 +1518,7 @@
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
                     "Operator": "And",
-                    "Type": "SchemaItem",
+                    "Type": "SchemaRegion",
                     "Value": "Death Mountain (Dark) - Bumper Cave (Top)"
                 },
                 {
@@ -1558,10 +1587,17 @@
                 },
                 {
                     "BracketsClose": 0,
-                    "BracketsOpen": 1,
-                    "Operator": "And",
+                    "BracketsOpen": 2,
+                    "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "ZorasFlippers"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
                 },
                 {
                     "BracketsClose": 0,
@@ -1591,7 +1627,7 @@
             "RuleEntries": [
                 {
                     "BracketsClose": 0,
-                    "BracketsOpen": 0,
+                    "BracketsOpen": 1,
                     "Operator": "And",
                     "Type": "ProgressItem",
                     "Value": "MoonPearl"
@@ -1615,17 +1651,17 @@
                     "BracketsOpen": 1,
                     "Operator": "And",
                     "Type": "SchemaRegion",
-                    "Value": "DW - Main - East"
+                    "Value": "DW - Main - East (No Pearl)"
                 },
                 {
-                    "BracketsClose": 1,
+                    "BracketsClose": 2,
                     "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "MagicHammer"
                 },
                 {
-                    "BracketsClose": 1,
+                    "BracketsClose": 0,
                     "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "SchemaRegion",
@@ -1638,7 +1674,14 @@
             "RuleEntries": [
                 {
                     "BracketsClose": 0,
-                    "BracketsOpen": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "Death Mountain (Dark) - Bumper Cave (Top)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
                     "Operator": "And",
                     "Type": "ProgressItem",
                     "Value": "MoonPearl"
@@ -1658,7 +1701,7 @@
                     "Value": "Glove1"
                 },
                 {
-                    "BracketsClose": 0,
+                    "BracketsClose": 1,
                     "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "ProgressItem",
@@ -1669,7 +1712,14 @@
                     "BracketsOpen": 1,
                     "Operator": "And",
                     "Type": "SchemaRegion",
-                    "Value": "DW - Main - East"
+                    "Value": "DW - Main - East (No Pearl)"
+                },
+		{
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
                 },
                 {
                     "BracketsClose": 0,
@@ -1693,7 +1743,7 @@
                     "Value": "Glove1"
                 },
                 {
-                    "BracketsClose": 3,
+                    "BracketsClose": 4,
                     "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "ProgressItem",
@@ -1875,7 +1925,7 @@
                     "BracketsOpen": 1,
                     "Operator": "Or",
                     "Type": "SchemaRegion",
-                    "Value": "DW - Main - East"
+                    "Value": "DW - Main - East (No Pearl)"
                 },
                 {
                     "BracketsClose": 1,
@@ -1894,9 +1944,16 @@
                 {
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
-                    "Operator": "Or",
+                    "Operator": "And",
                     "Type": "ProgressItem",
                     "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
                 }
             ]
         },
@@ -1958,6 +2015,13 @@
                 {
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "MagicMirror"
@@ -2014,17 +2078,64 @@
             "RuleEntries": [
                 {
                     "BracketsClose": 0,
-                    "BracketsOpen": 0,
+                    "BracketsOpen": 1,
                     "Operator": "And",
                     "Type": "SchemaRegion",
                     "Value": "DW - Swamp of Evil"
                 },
                 {
-                    "BracketsClose": 0,
+                    "BracketsClose": 1,
                     "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Desert of Mystery - Desert Palace - Back"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Desert of Mystery - Desert Palace - Back",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Swamp of Evil"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Desert of Mystery - Ledge"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
                 }
             ]
         },
@@ -2230,6 +2341,20 @@
                     "Operator": "Or",
                     "Type": "SchemaRegion",
                     "Value": "LW - Death Mountain - East (Top)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - Turtle Rock (Ledge)"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
                 }
             ]
         },
@@ -2343,6 +2468,25 @@
             ]
         },
         {
+            "Name": "Swamp of Evil - Misery Mire",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Sword1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                }
+            ]
+        },
+        {
             "Name": "DW - Death Mountain - East (Bottom)",
             "RuleEntries": [
                 {
@@ -2420,6 +2564,20 @@
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
                     "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Sword1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
                     "Type": "SchemaRegion",
                     "Value": "LW - Death Mountain - East (Top)"
                 },
@@ -2457,9 +2615,16 @@
                 {
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressSpecial",
+                    "Value": "Crystal5"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
                     "Operator": "Or",
-                    "Type": "ProgressItem",
-                    "Value": "SuperBomb"
+                    "Type": "ProgressSpecial",
+                    "Value": "Crystal6"
                 }
             ]
         },
@@ -2471,7 +2636,7 @@
                     "BracketsOpen": 1,
                     "Operator": "Or",
                     "Type": "SchemaRegion",
-                    "Value": "DW - Main - East"
+                    "Value": "DW - Main - East (No Pearl)"
                 },
                 {
                     "BracketsClose": 1,
@@ -2483,9 +2648,16 @@
                 {
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
-                    "Operator": "Or",
+                    "Operator": "And",
                     "Type": "ProgressItem",
                     "Value": "ZorasFlippers"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
                 }
             ]
         },
@@ -2533,6 +2705,13 @@
                 {
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "MagicHammer"
@@ -2564,14 +2743,40 @@
             ]
         },
         {
-            "Name": "Common - Fire Rod",
+            "Name": "Common - Magic Hammer and Moon Pearl",
             "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
                 {
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Fire Rod and Moon Pearl",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
                     "Value": "FireRod"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
                 }
             ]
         },
@@ -2580,10 +2785,17 @@
             "RuleEntries": [
                 {
                     "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 0,
                     "BracketsOpen": 1,
                     "Operator": "And",
                     "Type": "SchemaRegion",
-                    "Value": "DW - Main - East"
+                    "Value": "DW - Main - East (No Pearl)"
                 },
                 {
                     "BracketsClose": 0,
@@ -2629,6 +2841,13 @@
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
                     "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
                     "Type": "SchemaItem",
                     "Value": "North East (Dark) - Shop"
                 },
@@ -2662,6 +2881,75 @@
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "Shovel"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Moon Pearl",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Bomb and Moon Pearl",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+		{
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Bomb"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Titan's Mitt and Moon Pearl",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+		{
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Pegasus Boots and Moon Pearl",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+		{
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "PegasusBoots"
                 }
             ]
         },
