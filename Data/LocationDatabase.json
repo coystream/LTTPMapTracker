@@ -233,7 +233,11 @@
 		},
 		{
 			"Entity": "BumperCave",
-			"Requirements": [ "MagicCape" ]
+			"Requirements": [ "MagicCape" ],
+			"Entrances": [ "Front", "Back" ],
+			"Connections": [
+				[ "Front", "Back", [ "MagicCape" ] ]
+					]
 		},
 		{
 			"Entity": "MimicCave",
@@ -260,37 +264,62 @@
 		},
 		{
 			"Entity": "Connection1",
-			"Entrances": [ "Left", "Right" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
 			"Connections": [
-				[ "Left", "Right", [ ] ]
+				[ "Left", "Right", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Back", "Right", [ ] ],
+				[ "Front", "Back", [ ] ],
+				[ "Front", "Left", [ ] ],
+				[ "Left", "Back", [ ] ]
 			]
 		},
 		{
 			"Entity": "Connection2",
-			"Entrances": [ "Left", "Right" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
 			"Connections": [
-				[ "Left", "Right", [ ] ]
+				[ "Left", "Right", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Back", "Right", [ ] ],
+				[ "Front", "Back", [ ] ],
+				[ "Front", "Left", [ ] ],
+				[ "Left", "Back", [ ] ]
 			]
 		},
 		{
 			"Entity": "Connection3",
-			"Entrances": [ "Left", "Right" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
 			"Connections": [
-				[ "Left", "Right", [ ] ]
+				[ "Left", "Right", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Back", "Right", [ ] ],
+				[ "Front", "Back", [ ] ],
+				[ "Front", "Left", [ ] ],
+				[ "Left", "Back", [ ] ]
 			]
 		},
 		{
 			"Entity": "Connection4",
-			"Entrances": [ "Left", "Right" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
 			"Connections": [
-				[ "Left", "Right", [ ] ]
+				[ "Left", "Right", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Back", "Right", [ ] ],
+				[ "Front", "Back", [ ] ],
+				[ "Front", "Left", [ ] ],
+				[ "Left", "Back", [ ] ]
 			]
 		},
 		{
 			"Entity": "Connection5",
-			"Entrances": [ "Left", "Right" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
 			"Connections": [
-				[ "Left", "Right", [ ] ]
+				[ "Left", "Right", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Back", "Right", [ ] ],
+				[ "Front", "Back", [ ] ],
+				[ "Front", "Left", [ ] ],
+				[ "Left", "Back", [ ] ]
 			]
 		},
 		{

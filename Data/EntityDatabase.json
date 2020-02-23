@@ -784,31 +784,31 @@
 			"TypeName": "Connection1",
 			"DisplayName": "Connection 1",
 			"Image": "Images/Locations/Connection1.png",
-			"Auxiliary": [ "Left", "Right" ]
+			"Auxiliary": [ "Front", "Left", "Right", "Back" ]
 		},
 		{
 			"TypeName": "Connection2",
 			"DisplayName": "Connection 2",
 			"Image": "Images/Locations/Connection2.png",
-			"Auxiliary": [ "Left", "Right" ]
+			"Auxiliary": [ "Front", "Left", "Right", "Back" ]
 		},
 		{
 			"TypeName": "Connection3",
 			"DisplayName": "Connection 3",
 			"Image": "Images/Locations/Connection3.png",
-			"Auxiliary": [ "Left", "Right" ]
+			"Auxiliary": [ "Front", "Left", "Right", "Back" ]
 		},
 		{
 			"TypeName": "Connection4",
 			"DisplayName": "Connection 4",
 			"Image": "Images/Locations/Connection4.png",
-			"Auxiliary": [ "Left", "Right" ]
+			"Auxiliary": [ "Front", "Left", "Right", "Back" ]
 		},
 		{
 			"TypeName": "Connection5",
 			"DisplayName": "Connection 5",
 			"Image": "Images/Locations/Connection5.png",
-			"Auxiliary": [ "Left", "Right" ]
+			"Auxiliary": [ "Front", "Left", "Right", "Back" ]
 		},
 		{
 			"TypeName": "WitchHut",
