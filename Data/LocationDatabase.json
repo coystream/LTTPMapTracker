@@ -68,7 +68,11 @@
 			"Treasure": 8,
 			"TreasureKeys": 3,
 			"TreasureEtc": 3,
-			"Requirements": [ "FireRod" ]
+			"Requirements": [ "FireRod" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
+			"Connections": [
+				[ "Left", "Right", [ ] ]
+			]
 		},
 		{
 			"Entity": "DW4",
@@ -220,6 +224,120 @@
 			"Treasure": 26,
 			"TreasureKeys": 4,
 			"TreasureEtc": 2,
+			"Requirements": [ "Bow", "Hookshot", "CaneOfSomaria?", "FireRod?" ]
+		},
+		{
+			"Entity": "HCDS",
+			"Treasure": 12,
+			"TreasureKeys": 4,
+			"TreasureEtc": 2,
+			"Requirements": [ "Lantern" ],
+			"Entrances": [ "Front", "Left", "Right" ],
+			"Connections": [
+				[ "Front", "Left", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Left", "Right", [ ] ]
+			]
+		},
+		{
+			"Entity": "LW1DS",
+			"Treasure": 8,
+			"TreasureKeys": 2,
+			"TreasureEtc": 3,
+			"Requirements": [ "Lantern", [ "Bow?", "SilverBow?" ] ]
+		},
+		{
+			"Entity": "LW2DS",
+			"Treasure": 9,
+			"TreasureKeys": 4,
+			"TreasureEtc": 3,
+			"Requirements": [ [ "Lantern", "FireRod" ], "PegasusBoots?" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
+			"Connections": [
+				[ "Front", "Left", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Left", "Right", [ ] ]
+			]
+		},
+		{
+			"Entity": "LW3DS",
+			"Treasure": 6,
+			"TreasureKeys": 1,
+			"TreasureEtc": 3,
+			"Requirements": [ [ "Lantern?", "FireRod?" ] ]
+		},
+		{
+			"Entity": "ATDS",
+			"Treasure": 4,
+			"TreasureKeys": 4,
+			"TreasureEtc": 0,
+			"Requirements": [ "Lantern", [ "Sword1", "BugNet" ] ]
+		},		
+		{
+			"Entity": "DW1DS",
+			"Treasure": 14,
+			"TreasureKeys": 6,
+			"TreasureEtc": 3,
+			"Requirements": [ "Lantern", "Bow", "MagicHammer" ]
+		},
+		{
+			"Entity": "DW2DS",
+			"Treasure": 15,
+			"TreasureKeys": 6,
+			"TreasureEtc": 3,
+			"Requirements": [ "ZorasFlippers", "MagicHammer", "Hookshot" ]
+		},
+		{
+			"Entity": "DW3DS",
+			"Treasure": 10,
+			"TreasureKeys": 5,
+			"TreasureEtc": 3,
+			"Requirements": [ "FireRod" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
+			"Connections": [
+				[ "Left", "Right", [ ] ]
+			]
+		},
+		{
+			"Entity": "DW4DS",
+			"Treasure": 10,
+			"TreasureKeys": 3,
+			"TreasureEtc": 3,
+			"Requirements": [ "MagicHammer" ]
+		},
+		{
+			"Entity": "DW5DS",
+			"Treasure": 12,
+			"TreasureKeys": 6,
+			"TreasureEtc": 3,
+			"Requirements": [ [ "MedallionBombos", "FireRod" ], "MagicHammer" ]
+		},
+		{
+			"Entity": "DW6DS",
+			"Treasure": 11,
+			"TreasureKeys": 6,
+			"TreasureEtc": 3,
+			"Requirements": [ "Lantern", "CaneOfSomaria", [ "PegasusBoots?", "Hookshot?" ] ]
+		},
+		{
+			"Entity": "DW7DS",
+			"Treasure": 14,
+			"TreasureKeys": 6,
+			"TreasureEtc": 3,
+			"Requirements": [ "CaneOfSomaria", "Lantern", "FireRod", "IceRod" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
+			"Connections": [
+				[ "Front", "Left", [ "CaneOfSomaria", "FireRod?" ] ],
+				[ "Left", "Right", [ ] ],
+				[ "Left", "Back", [ "CaneOfSomaria", "Lantern" ] ],
+				[ "Right", "Back", [ "CaneOfSomaria", "Lantern" ] ]
+			]
+		},
+		{
+			"Entity": "GTDS",
+			"Treasure": 31,
+			"TreasureKeys": 8,
+			"TreasureEtc": 3,
 			"Requirements": [ "Bow", "Hookshot", "CaneOfSomaria?", "FireRod?" ]
 		},
 		{

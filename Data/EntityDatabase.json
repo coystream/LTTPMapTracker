@@ -590,7 +590,7 @@
 			"DisplayName": "Skull Woods",
 			"Image": "Images/Locations/DW3.png",
 			"Required": [ "FireRod" ],
-			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon", "Front", "Left", "Right", "Boss" ]
 		},
 		{
 			"TypeName": "DW4",
@@ -710,6 +710,94 @@
 		},
 		{
 			"TypeName": "GTMC",
+			"DisplayName": "Ganon's Tower",
+			"Required": [ "Bow", "MagicHammer", "Hookshot", "CaneOfSomaria", "FireRod" ],
+			"Image": "Images/Locations/GT.png"
+		},
+{
+			"TypeName": "HCDS",
+			"DisplayName": "Hyrule Castle",
+			"Image": "Images/Locations/HyruleCastle.png",
+			"Required": [ "Lantern" ],
+			"Auxiliary": [ "Front", "Left", "Right" ]
+		},
+		{
+			"TypeName": "LW1DS",
+			"DisplayName": "Eastern Palace",
+			"Image": "Images/Locations/LW1.png",
+			"Required": [ "Lantern", "Bow" ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+		},
+		{
+			"TypeName": "LW2DS",
+			"DisplayName": "Desert Palace",
+			"Image": "Images/Locations/LW2.png",
+			"Required": [ [ "Lantern", "FireRod" ] ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon", "Front", "Left", "Right", "Boss" ]
+		},
+		{
+			"TypeName": "LW3DS",
+			"DisplayName": "Tower of Hera",
+			"Image": "Images/Locations/LW3.png",
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+		},
+		{
+			"TypeName": "ATDS",
+			"DisplayName": "Agahnim's Tower",
+			"Required": [ "Lantern", [ "Sword1", "BugNet" ] ],
+			"Image": "Images/Locations/AT.png"
+		},		
+		{
+			"TypeName": "DW1DS",
+			"DisplayName": "Palace of Darkness",
+			"Image": "Images/Locations/DW1.png",
+			"Required": [ "Lantern", "Bow", "MagicHammer" ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+		},
+		{
+			"TypeName": "DW2DS",
+			"DisplayName": "Swamp Palace",
+			"Image": "Images/Locations/DW2.png",
+			"Required": [ "ZorasFlippers", "MagicHammer", "Hookshot" ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+		},
+		{
+			"TypeName": "DW3DS",
+			"DisplayName": "Skull Woods",
+			"Image": "Images/Locations/DW3.png",
+			"Required": [ "FireRod" ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon", "Front", "Left", "Right", "Boss" ]
+		},
+		{
+			"TypeName": "DW4DS",
+			"DisplayName": "Thieves' Town",
+			"Image": "Images/Locations/DW4.png",
+			"Required": [ "MagicHammer" ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+		},
+		{
+			"TypeName": "DW5DS",
+			"DisplayName": "Ice Palace",
+			"Image": "Images/Locations/DW5.png",
+			"Required": [ [ "FireRod", "MedallionBombos" ], "MagicHammer" ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+		},
+		{
+			"TypeName": "DW6DS",
+			"DisplayName": "Misery Mire",
+			"Image": "Images/Locations/DW6.png",
+			"Required": [ "Lantern", "CaneOfSomaria", [ "Hookshot", "PegasusBoots" ] ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon" ]
+		},
+		{
+			"TypeName": "DW7DS",
+			"DisplayName": "Turtle Rock",
+			"Image": "Images/Locations/DW7.png",
+			"Required": [ "Lantern", "FireRod", "IceRod", "CaneOfSomaria" ],
+			"Auxiliary": [ "CrystalDungeon", "PendantDungeon", "Front", "Left", "Right", "Boss" ]
+		},
+		{
+			"TypeName": "GTDS",
 			"DisplayName": "Ganon's Tower",
 			"Required": [ "Bow", "MagicHammer", "Hookshot", "CaneOfSomaria", "FireRod" ],
 			"Image": "Images/Locations/GT.png"
