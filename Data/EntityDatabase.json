@@ -133,6 +133,16 @@
 			"Image": "Images/Items/Flute.png"
 		},
 		{
+			"TypeName": "FluteActual",
+			"DisplayName": "Flute Actual",
+			"Image": "Images/Items/Flute.png"
+		},
+		{
+			"TypeName": "FluteActivated",
+			"DisplayName": "Flute Activated",
+			"Image": "Images/Items/FluteActivated.png"
+		},
+		{
 			"TypeName": "Glove1",
 			"DisplayName": "Power Glove",
 			"Image": "Images/Items/Glove1.png"
@@ -173,6 +183,16 @@
 			"Image": "Images/Items/MagicPowder.png"
 		},
 		{
+			"TypeName": "MagicPowderActual",
+			"DisplayName": "Magic Powder Actual",
+			"Image": "Images/Items/MagicPowder.png"
+		},
+		{
+			"TypeName": "MagicPowderUsed",
+			"DisplayName": "Magic Powder Used",
+			"Image": "Images/Items/MagicPowderUsed.png"
+		},
+		{
 			"TypeName": "MedallionBombos",
 			"DisplayName": "Bombos Medallion",
 			"Image": "Images/Items/MedallionBombos.png"
@@ -198,6 +218,16 @@
 			"Image": "Images/Items/Mushroom.png"
 		},
 		{
+			"TypeName": "MushroomActual",
+			"DisplayName": "Mushroom Actual",
+			"Image": "Images/Items/Mushroom.png"
+		},
+		{
+			"TypeName": "MushroomUsed",
+			"DisplayName": "Mushroom Used",
+			"Image": "Images/Items/MushroomUsed.png"
+		},
+		{
 			"TypeName": "PegasusBoots",
 			"DisplayName": "Pegasus Boots",
 			"Image": "Images/Items/PegasusBoots.png"
@@ -216,6 +246,16 @@
 			"TypeName": "Shovel",
 			"DisplayName": "Shovel",
 			"Image": "Images/Items/Shovel.png"
+		},	
+		{
+			"TypeName": "ShovelActual",
+			"DisplayName": "Shovel Actual",
+			"Image": "Images/Items/Shovel.png"
+		},	
+		{
+			"TypeName": "ShovelUsed",
+			"DisplayName": "Shovel Used",
+			"Image": "Images/Items/ShovelUsed.png"
 		},
 		{
 			"TypeName": "ZorasFlippers",
