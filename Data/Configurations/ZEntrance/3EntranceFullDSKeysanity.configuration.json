@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/ZEntrance/EntranceFullDSKeysanity.png",
+    "InstanceTemplate": "",
+    "Name": "Drop Shuffle CrossKeys",
+    "Schema": "Data/Configurations/ZEntrance/EntranceFull.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenDSKeysanity.ini",
+    "Version": 1
+}

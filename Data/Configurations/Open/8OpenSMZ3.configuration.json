@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/Open/OpenSMZ3.png",
+    "InstanceTemplate": "Data/Configurations/Open/Open.instance.json",
+    "Name": "SMZ3",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenSMZ3.ini",
+    "Version": 1
+}

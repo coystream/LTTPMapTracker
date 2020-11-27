@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/ZEntrance/EntranceFullKeysanity.png",
+    "InstanceTemplate": "",
+    "Name": "CrossKeys",
+    "Schema": "Data/Configurations/ZEntrance/EntranceFull.schema.json",
+    "SettingsOverrides": "Data/Configurations/ZEntrance/EntranceFullKeysanity.ini",
+    "Version": 1
+}

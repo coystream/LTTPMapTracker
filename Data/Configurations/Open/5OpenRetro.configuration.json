@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/Open/OpenRetro.png",
+    "InstanceTemplate": "Data/Configurations/Open/Open.instance.json",
+    "Name": "Retro",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenRetro.ini",
+    "Version": 1
+}

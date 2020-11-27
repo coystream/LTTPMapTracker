@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/Open/OpenDS.png",
+    "InstanceTemplate": "",
+    "Name": "Drop Shuffle",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenDS.ini",
+    "Version": 1
+}

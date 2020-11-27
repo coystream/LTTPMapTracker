@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/ZEntrance/EntranceFull.png",
+    "InstanceTemplate": "",
+    "Name": "Entrance Randomizer",
+    "Schema": "Data/Configurations/ZEntrance/EntranceFull.schema.json",
+    "SettingsOverrides": "",
+    "Version": 1
+}

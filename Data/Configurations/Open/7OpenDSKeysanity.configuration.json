@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/Open/OpenKeysanityDS.png",
+    "InstanceTemplate": "",
+    "Name": "Drop Shuffle Keysanity",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenDSKeysanity.ini",
+    "Version": 1
+}

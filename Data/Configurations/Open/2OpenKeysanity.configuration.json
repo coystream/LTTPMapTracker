@@ -1,0 +1,8 @@
+{
+    "Image": "Data/Configurations/Open/OpenKeysanity.png",
+    "InstanceTemplate": "Data/Configurations/Open/Open.instance.json",
+    "Name": "Keysanity",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "Data/Configurations/Open/OpenKeysanity.ini",
+    "Version": 1
+}
