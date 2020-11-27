@@ -2,7 +2,7 @@
 
 ## Download
 
-[Latest](https://github.com/coystream/LTTPMapTracker/releases/download/1.1/LTTPMapTracker.zip)
+[Latest](https://github.com/coystream/LTTPMapTracker/releases/download/1.11/LTTPMapTracker.zip)
 
 ## Description
 
