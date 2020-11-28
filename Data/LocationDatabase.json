@@ -371,7 +371,11 @@
 		},
 		{
 			"Entity": "OldMansCave",
-			"IsStartPos": true
+			"IsStartPos": true,
+			"Entrances": [ "Front", "Back" ],
+			"Connections": [
+				[ "Front", "Back", [ ] ]
+			]
 		},
 		{
 			"Entity": "Sanctuary",
