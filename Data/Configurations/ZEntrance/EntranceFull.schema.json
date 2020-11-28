@@ -1148,7 +1148,7 @@
             "Name": "Village of Outcasts - Peg Cave",
             "PositionX": -752,
             "PositionY": 431,
-            "Region": "DW - Main - West",
+            "Region": "DW - Peg Cave",
             "Rule": "DW - Village of Outcasts - Peg Cave",
             "RuleAccess": "Entrance"
         },
@@ -1343,6 +1343,11 @@
             "Color": "#7013aa",
             "Name": "DW - Main - West",
             "Rule": "DW - Main - West"
+        },
+        {
+            "Color": "#701fff",
+            "Name": "DW - Peg Cave",
+            "Rule": "DW - Peg Cave"
         },
         {
             "Color": "#e657ff",
@@ -1687,12 +1692,59 @@
                 }
             ]
         },
+	{
+            "Name": "DW - Peg Cave",
+            "RuleEntries": [
+		{
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - West"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+	    ]
+	},
         {
             "Name": "DW - Main - West",
             "RuleEntries": [
+		{
+                    "BracketsClose": 0,
+                    "BracketsOpen": 2,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Peg Cave"
+                },
                 {
                     "BracketsClose": 0,
-                    "BracketsOpen": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
                     "Operator": "Or",
                     "Type": "SchemaRegion",
                     "Value": "Death Mountain (Dark) - Bumper Cave (Top)"
@@ -1870,6 +1922,20 @@
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "Glove2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Peg Cave"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
                 }
             ]
         },
