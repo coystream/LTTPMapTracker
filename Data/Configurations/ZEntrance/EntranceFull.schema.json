@@ -1477,10 +1477,17 @@
             "RuleEntries": [
                 {
                     "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "AT"
+                },
+                {
+                    "BracketsClose": 1,
                     "BracketsOpen": 0,
                     "Operator": "And",
                     "Type": "ProgressLocation",
-                    "Value": "AT"
+                    "Value": "ATDS"
                 },
                 {
                     "BracketsClose": 0,
@@ -1579,6 +1586,13 @@
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
                     "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "ATDS"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
                     "Type": "SchemaRegion",
                     "Value": "DW - Main - East"
                 }
@@ -1589,10 +1603,17 @@
             "RuleEntries": [
                 {
                     "BracketsClose": 0,
-                    "BracketsOpen": 1,
+                    "BracketsOpen": 2,
                     "Operator": "Or",
                     "Type": "ProgressLocation",
                     "Value": "AT"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "ATDS"
                 },
                 {
                     "BracketsClose": 0,
@@ -2697,6 +2718,13 @@
                     "Operator": "Or",
                     "Type": "ProgressLocation",
                     "Value": "GT"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "GTDS"
                 }
             ]
         },
@@ -3067,6 +3095,13 @@
                     "Operator": "Or",
                     "Type": "ProgressLocation",
                     "Value": "AT"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "ATDS"
                 }
             ]
         }
